@@ -1,7 +1,18 @@
 # Conflict Events Classification with Optimization Techniques
 
 **Problem Statement:**  
-This project investigates the classification of conflict events using various machine learning approaches. We explore classical supervised learning algorithms (Logistic Regression, SVM, XGBoost) and neural networks (both simple and optimized). Our goal is to improve model performance, convergence speed, and efficiency through techniques such as regularization (L2), different optimizers, early stopping, dropout, and hyperparameter tuning.
+This project investigates the classification of conflict events using various machine learning approaches. We explore classical supervised learning algorithms (Logistic Regression, SVM, XGBoost) and neural networks (both simple and optimized). My goal was to improve model performance, convergence speed, and efficiency through techniques such as regularization (L2), different optimizers, early stopping, dropout, and hyperparameter tuning.
+
+---
+
+## Dataset & Video Presentation
+
+- **Dataset Link**: [Click Here to Access the Dataset](<https://docs.google.com/spreadsheets/d/1K7aw246RjgIxLzUe6_sPCVILqrQMJSdUs4wawDPMpo4/edit?usp=sharing>)  
+- **Video Presentation**: [Watch the Project Walkthrough](<YOUR_VIDEO_LINK>)
+
+In the video, I demonstrate the dataset, code, optimization techniques, and final results in approximately 5 minutes.
+
+---
 
 ## Dataset Overview
 - **Name**: Conflict Events Dataset  
@@ -11,18 +22,23 @@ This project investigates the classification of conflict events using various ma
   - **Numerical**: YEAR, FATALITIES, LATITUDE, LONGITUDE, etc.  
 - **Target**: `EVENT_TYPE` (multi-class)
 
+---
+
 ## Project Structure
+
 ```
 Project_Name/
-├── notebook.ipynb        # Main Jupyter notebook with all code and analysis
+├── notebook.ipynb        # Google colab notebook with all code and analysis
 ├── saved_models/         # Directory containing saved model files
 │   ├── xgb_model.pkl
 │   └── optimized_nn_model.h5
 └── README.md             # This file
 ```
 
+---
+
 ## Implementation Summary
-We implemented:
+I implemented:
 1. **Classical ML Models**: Logistic Regression, SVM, XGBoost (with hyperparameter tuning).  
 2. **Simple Neural Network**: Baseline network without optimization.  
 3. **Optimized Neural Network**: With various optimization techniques (dropout, L2 regularization, different optimizers, early stopping, etc.).  
@@ -53,7 +69,7 @@ Below is the table detailing the **five** training instances for the optimized n
    - The optimized neural network outperformed the classical ML algorithms in terms of accuracy and F1-score, indicating that the deeper architecture and regularization techniques were effective. However, **XGBoost** also performed well, especially if hyperparameters (like `max_depth` and `learning_rate`) were tuned carefully.
 
 3. **Making Predictions Using Test Data**  
-   - We split our data into training, validation, and test sets (60%, 20%, 20%). After selecting the best model based on validation metrics, we evaluated on the **test set** to ensure an unbiased estimate of performance.  
+   - Had to split our data into training, validation, and test sets (60%, 20%, 20%). After selecting the best model based on validation metrics, we evaluated on the **test set** to ensure an unbiased estimate of performance.  
    - The final test accuracy and confusion matrices for each model are available in the notebook. Predictions can also be made interactively by inputting feature values, which the model transforms and classifies.
 
 ---
@@ -81,7 +97,7 @@ Below is the table detailing the **five** training instances for the optimized n
      best_nn_model = load_model('saved_models/optimized_nn_model.h5')
      ```
 5. **Video Presentation:**  
-   - Provide a short (5-minute) video showing the table above, the final results, and your explanation of why certain hyperparameter combinations worked best.
+   - Refer to the [Video Presentation](<YOUR_VIDEO_LINK>) for a quick walkthrough of the dataset, code, optimization techniques, and final results.
 
 ---
 
@@ -91,8 +107,4 @@ This project demonstrates how **regularization, optimizer choice, dropout, and e
 **Next Steps:**
 - Further **hyperparameter tuning** for XGBoost or other classical models.
 - **Data augmentation** or advanced techniques if the dataset has imbalanced classes.
-- **Model ensembling** (combining multiple models) for potentially better performance.
-
----
-
-_Use this README as a template, adjusting the metrics, descriptions, and final conclusions to match your actual project results._
+- **Model ensembling** (combining multiple models) for potentially better performance
