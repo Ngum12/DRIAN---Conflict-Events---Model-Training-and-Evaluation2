@@ -8,7 +8,7 @@ This project investigates the classification of conflict events using various ma
 ## Dataset & Video Presentation
 
 - **Dataset Link**: [Click Here to Access the Dataset](<https://docs.google.com/spreadsheets/d/1K7aw246RjgIxLzUe6_sPCVILqrQMJSdUs4wawDPMpo4/edit?usp=sharing>)  
-- **Video Presentation**: [Watch the Project Walkthrough](<YOUR_VIDEO_LINK>)
+- **Video Presentation**: [Watch the Project Walkthrough](<https://youtu.be/bpQEenlQUBk>)
 
 In the video, I demonstrate the dataset, code, optimization techniques, and final results in approximately 5 minutes.
 
@@ -66,7 +66,7 @@ Below is the table detailing the **five** training instances for the optimized n
    - Based on the table, **Instance 5** (with a lower learning rate of 0.0001, dropout 0.4, L2=0.0005, and early stopping) achieved the highest accuracy and F1-score. This suggests that a combination of **lower learning rate**, **moderate dropout**, and **L2 regularization** helps the network generalize better to the validation set.
 
 2. **Which Implementation Worked Better Between the ML Algorithm and Neural Network?**  
-   - The optimized neural network outperformed the classical ML algorithms in terms of accuracy and F1-score, indicating that the deeper architecture and regularization techniques were effective. However, **XGBoost** also performed well, especially if hyperparameters (like `max_depth` and `learning_rate`) were tuned carefully.
+   - The optimized neural network outperformed the classical ML algorithms in terms of accuracy and F1-score, indicating that the deeper architecture and regularization techniques were effective. However, **XGBoost** also performed well, especially if hyperparameters (like `max_depth` and `learning_rate`) tuned carefully.
 
 3. **Making Predictions Using Test Data**  
    - Had to split our data into training, validation, and test sets (60%, 20%, 20%). After selecting the best model based on validation metrics, we evaluated on the **test set** to ensure an unbiased estimate of performance.  
@@ -97,7 +97,7 @@ Below is the table detailing the **five** training instances for the optimized n
      best_nn_model = load_model('saved_models/optimized_nn_model.h5')
      ```
 5. **Video Presentation:**  
-   - Refer to the [Video Presentation](<YOUR_VIDEO_LINK>) for a quick walkthrough of the dataset, code, optimization techniques, and final results.
+   - Refer to the [Video Presentation](<https://youtu.be/bpQEenlQUBk>) for a quick walkthrough of the dataset, code, optimization techniques, and final results.
 
 ---
 
