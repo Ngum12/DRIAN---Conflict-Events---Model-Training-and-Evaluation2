@@ -3,12 +3,7 @@
 **Problem Statement:**  
 This project investigates the classification of conflict events using various machine learning approaches. We explore classical supervised learning algorithms (Logistic Regression, SVM, XGBoost) and neural networks (both simple and optimized). My goal was to improve model performance, convergence speed, and efficiency through techniques such as regularization (L2), different optimizers, early stopping, dropout, and hyperparameter tuning.
 
-Africa faces critical challenges in developing effective crisis management systems due to the following limitations:
-Lack of Real-Time Data Integration: Existing systems often lack real-time data integration capabilities, resulting in delayed responses to emerging crises. For example, Rwanda is scaling up artificial intelligence technology to strengthen disaster prevention and early warning, addressing previous delays in disaster reporting. Nkurunziza, M. (2021, August 19). 
-Absence of Localized Context: Many crisis prediction models do not incorporate localized context, leading to high false positive rates in crisis alerts. The United Nations underscores the need for context-specific solutions to build a resilient Africa through disaster risk reduction and preparedness Musau, Z ( 2024,Oct 13).
-Limited Multi-Modal Data Integration: Current systems often fail to incorporate multi-modal data sources, missing crucial early warning signals from social media and satellite imagery. The African Union Commission and technical partners aim to strengthen disaster management policies by collecting evidence-based data, highlighting the importance of diverse data sources.
-These limitations result in ineffective crisis response mechanisms and resource misallocation. Addressing these gaps through an AI-driven platform like DRIAN is essential for fostering resilience and improving crisis response across the continent.
-
+Africa's crisis management systems face significant challenges due to lack of real-time data integration, insufficient localized context in prediction models, and limited use of multi-modal data sources. These deficiencies lead to delayed and often inaccurate crisis responses. Implementing an AI-driven platform like DRIAN could address these gaps, enhance disaster preparedness, and improve overall crisis response effectiveness across the continent.
 
 ---
 
