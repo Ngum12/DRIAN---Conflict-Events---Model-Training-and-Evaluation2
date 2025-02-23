@@ -1,9 +1,9 @@
 # Conflict Events Classification with Optimization Techniques
 
 **Problem Statement:**  
-This project investigates the classification of conflict events using various machine learning approaches. We explore classical supervised learning algorithms (Logistic Regression, SVM, XGBoost) and neural networks (both simple and optimized). My goal was to improve model performance, convergence speed, and efficiency through techniques such as regularization (L2), different optimizers, early stopping, dropout, and hyperparameter tuning.
-
 Africa's crisis management systems face significant challenges due to lack of real-time data integration, insufficient localized context in prediction models, and limited use of multi-modal data sources. These deficiencies lead to delayed and often inaccurate crisis responses. Implementing an AI-driven platform like DRIAN could address these gaps, enhance disaster preparedness, and improve overall crisis response effectiveness across the continent.
+
+This project investigates the classification of conflict events using various machine learning approaches. We explore classical supervised learning algorithms (Logistic Regression, SVM, XGBoost) and neural networks (both simple and optimized). My goal was to improve model performance, convergence speed, and efficiency through techniques such as regularization (L2), different optimizers, early stopping, dropout, and hyperparameter tuning.
 
 ---
 
