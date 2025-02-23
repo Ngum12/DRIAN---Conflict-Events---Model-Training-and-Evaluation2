@@ -52,11 +52,11 @@ Below is the table detailing the **five** training instances for the optimized n
 
 | **Training Instance** | **Optimizer** | **Regularizer**  | **Epochs** | **Early Stopping** | **Number of Layers** | **Learning Rate** | **Accuracy** | **F1-Score** | **Recall** | **Precision** | **Loss** |
 |-----------------------|---------------|------------------|------------|---------------------|-----------------------|-------------------|-------------|-------------|----------|------------|---------|
-| **Instance 1**       | Adam (default)| None             | 20         | No                  | 2                     | 0.001 (default)   | 0.85        | 0.83        | 0.81     | 0.84       | 0.57    |
-| **Instance 2**       | RMSProp       | L2 (0.001)       | 50         | Yes                 | 3                     | 0.0005            | 0.88        | 0.86        | 0.85     | 0.87       | 0.45    |
-| **Instance 3**       | RMSProp       | L2 (0.001)       | 50         | Yes                 | 3                     | 0.0005            | 0.87        | 0.85        | 0.84     | 0.85       | 0.47    |
-| **Instance 4**       | Adam          | L2 (0.001) + Dropout (0.5) | 50 | Yes | 4 | 0.001 | 0.90 | 0.89 | 0.88 | 0.90 | 0.40 |
-| **Instance 5**       | Adam          | L2 (0.0005)      | 60         | Yes                 | 3                     | 0.0001            | 0.92        | 0.90        | 0.91     | 0.89       | 0.35    |
+| **Instance 1** LR       | Adam (default)| None             | 00         | No                  | None                     | 0.001 (default)   | 0.65        | 0.83        | 0.65     | 0.55       | None    |
+| **Instance 2** SVM       | RMSProp       | None       | 00         | Yes                 | None                     | 0.0005            | 0.66        | 0.86        | 0.60     | 0.56       | None    |
+| **Instance 3** XGBOST      | RMSProp       | 0.1       | 00         | Yes                 | None                     | 0.0005            | 0.86        | 0.85        | 0.84     | 0.85       | None    |
+| **Instance 4** SNN       | Adam          | None | 20 | 00 | Hidden (1) | None | 0.90 | 0.76 | 0.76 | 0.67 | 0.83 |
+| **Instance 5** ONN     | RMSProp          | L2 (0.0005) + Dropout (0.4)     | 60         | Yes                 | 3                     | 0.0001            | 0.75        | 0.90        | 0.75     | 0.67       | 0.87    |
 
 ---
 
